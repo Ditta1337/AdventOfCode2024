@@ -26,15 +26,10 @@ public class Day1 : Parser
 
     private static void Part2()
     {
-        var result = 0;
-        
         var leftListSet = _leftList.ToHashSet();
 
-        foreach (var leftVal in leftListSet)
-        {
-            result += _rightList.FindAll(rightVal => rightVal == leftVal).Count * leftVal;
-        }
-        
+        var result = leftListSet.Sum(leftVal => _rightList.FindAll(rightVal => rightVal == leftVal).Count * leftVal);
+
         Console.WriteLine($"Part 2 solution: {result}");
     }
 
