@@ -8,6 +8,7 @@ internal static class Program
     {
         Console.WriteLine("Hello, Advent of Code 2024!");
         // Day1.Day1.Run();
-        Day2.Day2.Run();
+        // Day2.Day2.Run();
+        Day3.Day3.Run();
     }
 }
