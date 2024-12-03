@@ -6,16 +6,6 @@ public class Day3 : Parser
 {
     private static string _memory = "jd";
     private const string Pattern = @"(mul\((\d{1,3}),(\d{1,3})\))|(do\(\))|(don't\(\))";
-
-    public static void MetMemory(string mem)
-    {
-        _memory = mem;
-    }
-
-    public static void PrintMemory()
-    {
-        
-    }
     
     public static void Run()
     {
