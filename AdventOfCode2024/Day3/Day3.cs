@@ -4,7 +4,7 @@ namespace AdventOfCode2024.Day3;
 
 public class Day3 : Parser
 {
-    private static string _memory = "jd";
+    private static string _memory = "";
     private const string Pattern = @"(mul\((\d{1,3}),(\d{1,3})\))|(do\(\))|(don't\(\))";
     
     public static void Run()
