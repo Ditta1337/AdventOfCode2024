@@ -18,7 +18,7 @@ public class Day6 : Parser
 
     public static void Run()
     {
-        Console.WriteLine("Day 2");
+        Console.WriteLine("Day 6");
 
         ParseInput();
         Part1();
