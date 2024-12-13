@@ -2,7 +2,7 @@ namespace AdventOfCode2024;
 
 public abstract class Parser
 {
-    private static readonly string HomeDir = Path.Combine(AppContext.BaseDirectory, "../../../");
+    protected static readonly string HomeDir = Path.Combine(AppContext.BaseDirectory, "../../../");
 
     protected static string[] ParseLines(int day)
     {

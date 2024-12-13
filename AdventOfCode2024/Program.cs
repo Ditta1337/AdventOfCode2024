@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode2024;
+﻿using AdventOfCode2024.Day7;
+
+namespace AdventOfCode2024;
 
 using System;
 
@@ -18,6 +20,7 @@ internal static class Program
         // Day9.Day9.Run();
         // Day10.Day10.Run();
         // Day11.Day11.Run();
-        Day12.Day12.Run();
+        // Day12.Day12.Run();
+        Day13.Day13.Run();
     }
 }
