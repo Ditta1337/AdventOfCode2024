@@ -64,9 +64,7 @@ public class Day14 : Parser
             if (y < middleY && x < middleX) quadrants[2] += _positions[position].Count;
             if (y < middleY && x > middleX) quadrants[3] += _positions[position].Count;
         }
-
-        Console.WriteLine($"{quadrants[0]} {quadrants[1]} {quadrants[2]} {quadrants[3]}");
-
+        
         return quadrants.Aggregate(1, (current, value) => current * value);
     }
 
