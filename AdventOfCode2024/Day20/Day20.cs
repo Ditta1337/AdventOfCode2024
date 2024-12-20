@@ -158,7 +158,6 @@ public class Day20 : Parser
                position.Item2 < _width;
     }
 
-
     private static List<List<int>> CreateVisited()
     {
         var visited = new List<List<int>>();
