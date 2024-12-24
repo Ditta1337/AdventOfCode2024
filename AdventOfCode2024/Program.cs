@@ -28,6 +28,7 @@ internal static class Program
         // Day17.Day17.Run();
         // Day20.Day20.Run();
         // Day21.Day21.Run();
-        Day22.Day22.Run();
+        // Day22.Day22.Run();
+        Day23.Day23.Run();
     }
 }
